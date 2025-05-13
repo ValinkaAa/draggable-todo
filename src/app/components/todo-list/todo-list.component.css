@@ -1,0 +1,55 @@
+div{
+    font-family: Lato;
+}
+.board{
+    width: 100%;
+    border: 0px solid saddlebrown;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lane{
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.task{
+    margin-bottom: 0.5em;
+    background: whitesmoke;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.task:hover{
+    outline: 3px solid #205081;
+}
+.heading{
+    padding: 1em 0;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-bottom: 0.5em solid white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.todo{
+    background: #3572b0;
+}
+.doing{
+    background: #f6c372;
+}
+.done{
+    background: #14892c;
+}
+.priorityHigh{
+    border-left: 5px solid red;
+}
+.priorityLow{
+    border-left: 5px solid blue;
+}
+.priorityMedium{
+    border-left: 5px solid orange;
+}
